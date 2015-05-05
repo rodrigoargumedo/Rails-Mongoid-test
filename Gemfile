@@ -44,5 +44,11 @@ group :development, :test do
   gem 'spring'
 end
 
+# Production stuff
+group :production do
+	gem 'puma'
+	gem 'rails_12factor'
+end
+
 # Login authentication
 gem 'devise'
